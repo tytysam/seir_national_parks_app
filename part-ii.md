@@ -35,9 +35,10 @@ requests. The API is similar, so see if you can swap out your `fetch()` calls.
 ## Bonus: Deploy
 
 You can easily build and deploy React apps using `create-react-app` and
-[`surge.sh`](https://surge.sh). First, build a final version of your react app
-with `npm build`. Then, follow the instructions on
-[`surge.sh`](https://surge.sh) to deploy your React app.
+[`netlify.com`](https://www.netlify.com/). Either read the Netlify docs for how to deploy or use the following tutorials:
+
+ - Read: [How to deploy a React application to Netlify](https://www.freecodecamp.org/news/how-to-deploy-a-react-application-to-netlify-363b8a98a985/)
+ - Watch: [Deploy React App to Netfily](https://www.youtube.com/watch?v=JwWvD_fWJFY)
 
 > Note: Be sure to following the instructions for setting up a `202.html` file.
 > Otherwise, the app will only work if the user navigates to the homepage first.

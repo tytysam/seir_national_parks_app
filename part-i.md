@@ -1,9 +1,8 @@
 # Part I: React Router
 
 This version of the application should use hard-coded parks data, which you can
-find in [`/src/data/parks.json`](./src/data/parks.json). Pass this data into the
-`<App />` component from inside `index.js` (i.e. follow
-[Thinking in React](https://reactjs.org/docs/thinking-in-react.html))
+find in [`parks.json`](./parks.json). Import the datat into the
+`<App />` component and start from there.
 
 Your national parks app should have the following features:
 
@@ -17,7 +16,7 @@ the homepage.
 
 If the user visits your application's home page (i.e. `localhost:3000`), they
 should see the list of parks. The images and names for these links should be
-pulled from [`src/data/parks.json`](./src/data/parks.json).
+pulled from [`parks.json`](./parks.json).
 
 ## 3. Park Detail (`/park/:id`)
 
