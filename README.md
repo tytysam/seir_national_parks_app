@@ -33,7 +33,9 @@ The layout of the page with be the following:
 ![](https://i.imgur.com/LfMFyCF.png)
 
 
-### Part I: [React Router](part-i.md)
+### Part I: React Router
+
+[part-i.md details](part-i.md)
 
 Start by building out the app using React, React Router, and the static data
 provided in [`parks.json`](./parks.json). Get the site working
