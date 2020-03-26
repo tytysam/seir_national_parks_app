@@ -6,6 +6,20 @@ find in [`parks.json`](./parks.json). Import the datat into the
 
 Your national parks app should have the following features:
 
+## Setup 
+
+Fork and clone this repo.  Within the repo create a new react app using `create-react-app` called `nationalParksApp`.
+
+```
+npx create-react-app nationalParksApp
+```
+
+Once the app is created cd into the `nationalParksApp` folder and run `npm start`.
+
+```
+npm start
+```
+
 ## 1. Navigation
 
 No matter what route the user is visiting, they should always see a navigation
