@@ -22,6 +22,11 @@ npm start
 
 Confirm the app starts and then continue with the steps below.
 
+## React Architecture
+
+Take a few minutes to draw out the react architecture for your app. Try to include as much details as you can such as, which Components should contain state, what props should be passed down, does any state need lifting.  Color the components based on which ones are stateful or stateless. Use the following drawing as your guide:
+ - [ColorSwitcher](https://docs.google.com/drawings/d/1CGb-EmwXoffidcsIYEwTqQy50Ix5D4inSOwJMPNFoFQ/edit)
+
 ## 1. Navigation
 
 No matter what route the user is visiting, they should always see a navigation
