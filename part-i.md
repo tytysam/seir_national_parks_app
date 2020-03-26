@@ -14,11 +14,13 @@ Fork and clone this repo.  Within the repo create a new react app using `create-
 npx create-react-app nationalParksApp
 ```
 
-Once the app is created cd into the `nationalParksApp` folder and run `npm start`.
+Once the app is created cd into the `nationalParksApp` folder and run `npm start`. 
 
 ```
 npm start
 ```
+
+Confirm the app starts and then continue with the steps below.
 
 ## 1. Navigation
 
