@@ -36,7 +36,7 @@ The layout of the page with be the following:
 ### Part I: [React Router](part-i.md)
 
 Start by building out the app using React, React Router, and the static data
-provided in [`src/data/parks.json`](./src/data/parks.json). Get the site working
+provided in [`parks.json`](./parks.json). Get the site working
 with this static data, then integrate with the [National Parks
 API](https://www.nps.gov/subjects/developer/index.htm) and make it look like the
 mock. For now, just pass the data around and create an MVP version with minimal
@@ -60,7 +60,7 @@ provided mock.
 
 ## Resources
 
-- [React Router Lesson Plan](https://git.generalassemb.ly/ga-wdi-lessons/react-router)
+- [React Router Lesson Plan](https://git.generalassemb.ly/SEIR-224/react-router)
 - [`<Route render={ ... } />`](https://reacttraining.com/react-router/web/api/Route/render-func)
   vs
   [`<Route component={ ... } />`](https://reacttraining.com/react-router/web/api/Route/component)
