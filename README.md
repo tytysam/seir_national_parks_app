@@ -28,13 +28,10 @@ Please turn in your submission by the deadline on your cohort calendar.
 
 You will be building out a website listing all of the National Parks.
 
-Each park should have a detail view that looks like this:
+The layout of the page with be the following:
 
 ![](https://i.imgur.com/LfMFyCF.png)
-![Detail view](./detail-view.png)
 
-There should be a home page that links to each detail view that looks like so:
-![Detail view](./list-view.png)
 
 ### Part I: [React Router](part-i.md)
 
