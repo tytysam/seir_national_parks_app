@@ -35,7 +35,7 @@ The layout of the page with be the following:
 
 ### Part I: React Router
 
-[part-i.md details](part-i.md)
+Read more on [part-i.md details](part-i.md)
 
 Start by building out the app using React, React Router, and the static data
 provided in [`parks.json`](./parks.json). Get the site working
@@ -47,7 +47,9 @@ styling so you know it's working.
 Your root level component (`App`) should hold all the data for the application
 and pass it down to the different pages, as necessary.
 
-### Part II: [Adding APIs](part-ii.md)
+### Part II: Adding APIs
+
+Read more on [part-ii.md details](part-ii.md)
 
 Once you have it working with the static data, get it working with the
 [National Parks API](https://www.nps.gov/subjects/developer/index.htm).
