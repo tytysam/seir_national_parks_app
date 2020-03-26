@@ -26,6 +26,8 @@ Confirm the app starts and then continue with the steps below.
 
 Take a few minutes to draw out the react architecture for your app. Try to include as much details as you can such as, which Components should contain state, what props should be passed down, does any state need lifting.  Color the components based on which ones are stateful or stateless. Use the following drawing as your guide:
  - [ColorSwitcher](https://docs.google.com/drawings/d/1CGb-EmwXoffidcsIYEwTqQy50Ix5D4inSOwJMPNFoFQ/edit)
+ - [Films App](https://docs.google.com/drawings/d/1Wr6FGaY6BIsKQn1z8F4bYym3xQlJwt0_uNndbv1RRTA/edit)
+ - [Todo List](https://docs.google.com/drawings/d/1kMqSL2ttuhn20_9vy6HwCfOE_4ClQnfh1f0FmPA-ae4/edit)
 
 ## 1. Navigation
 
