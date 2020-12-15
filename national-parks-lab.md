@@ -56,10 +56,10 @@ Once you have it working with the static data, get it working with the
 You should only need to add an Fetch request that sets the API response data to
 state.
 
-### Part III [Make it look like the mock](https://drive.google.com/file/d/1DJS8ysB1N9Kp89_V_loagQiFNU_4jZoN/view?usp=sharing)
+### Part III Make it look like the mock
 
 Now that all your data and pages are in place, make your site look like the
-provided mock.
+provided screen shot above or come up with your own design!
 
 ## Resources
 
