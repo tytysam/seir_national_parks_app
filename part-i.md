@@ -1,7 +1,7 @@
 # Part I: React Router
 
 This version of the application should use hard-coded parks data, which you can
-find in [`parks.json`](./parks.json). Import the datat into the
+find in [`parks.json`](./parks.json). Import the data into the
 `<App />` component and start from there.
 
 Your national parks app should have the following features:
