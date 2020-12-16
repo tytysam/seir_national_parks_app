@@ -29,7 +29,12 @@ You will be building out a website listing all of the National Parks.
 
 The layout of the page with be the following:
 
-![](https://i.imgur.com/LfMFyCF.png)
+
+Each park should have a detail view that looks like this:
+![Detail view](./detail-view.png)
+
+There should be a home page that links to each detail view that looks like so:
+![Detail view](./list-view.png)
 
 [We would like you to go above and beyond butt the very least your app should function like this](https://react-router-national-parks.vercel.app/)
 
