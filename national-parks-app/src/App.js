@@ -1,30 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import { Route, Link, Switch } from "react-router-dom";
-import data from "./Components/Parks/parks.json";
 import Home from "./Components/Home/Home.js";
 import ParkDetails from "./Components/ParkDetails/ParkDetails.js";
 
-const npsURL = "https://developer.nps.gov/api/v1/parks?parkCode=";
-const apiKEY = "VmfeHgym9FcT1vI2sF4SSVgAjrgfbsGMvlbZqAyt";
-
-// parks?parkCode=[PARK CODE HERE]&api_key=
-
 function App() {
-  // const [parks, setParks] = useState();
-
-  // const getParksFromNPS = async () => {
-  //   // const parkCode = data[0].parkCode;
-  //   const url = `${npsURL}acad&api_key=${apiKEY}`;
-  //   const response = await fetch(url);
-  //   const data = await response.json();
-  //   console.log(data);
-  // };
-
-  // useEffect(() => {
-  //   getParksFromNPS();
-  // }, []);
-
   return (
     <div className="app-container">
       <nav>
@@ -38,17 +18,11 @@ function App() {
         </Link>
       </nav>
       <Switch>
+        <Route exact path="/" component={Home} />
         <Route
-          exact
-          path="/"
+          path="/parks/:parkCode"
           render={(routerProps) => {
-            return <Home routerProps={routerProps} data={data} />;
-          }}
-        />
-        <Route
-          path="/park/:id"
-          render={(routerProps) => {
-            return <ParkDetails routerProps={routerProps} data={data} />;
+            return <ParkDetails routerProps={routerProps} />;
           }}
         />
       </Switch>
