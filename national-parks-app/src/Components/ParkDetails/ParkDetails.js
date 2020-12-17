@@ -5,7 +5,7 @@ const api = {
   base: "https://developer.nps.gov/api/v1/parks?parkCode=",
 };
 
-const ParkDetails = (props) => {
+const ParkDetails = ({ routerProps }) => {
   const [park, setPark] = useState({});
 
   // include the following:
@@ -19,11 +19,12 @@ const ParkDetails = (props) => {
   // images
 
   const getParkFromNPS = async () => {
-    // const parkCode = props.routerProps.match.params.parkCode;
-    const url = `${api.base}acad${api.key}`;
+    const parkCode = routerProps.match.params.parkCode;
+    const url = `${api.base}${parkCode}&api_key=${api.key}`;
     const response = await fetch(url);
-    const data = await response.json();
-    setPark(data);
+    const json = await response.json();
+
+    setPark(json);
     console.log(park);
   };
 
