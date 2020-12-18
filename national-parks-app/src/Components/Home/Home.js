@@ -4,7 +4,7 @@ import Parks from "../Parks/Parks.js";
 const Home = () => {
   return (
     <div>
-      <h1>National Parks Directory</h1>
+      <h1 className="nps-header">National Parks Directory</h1>
       <div className="parks-container row justify-content-center">
         <Parks />
       </div>

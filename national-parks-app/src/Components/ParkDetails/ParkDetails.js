@@ -39,20 +39,21 @@ const ParkDetails = ({ item, routerProps }) => {
   return (
     <div className="park-details-container">
       <div className="hero-container row justify-content-center">
-        <div className="col-12">
+        <div className="col-lg-5">
           <img
             src={park.images && park.images[0].url}
             alt={park.images && park.images[0].caption}
             className="hero-image"
           />
-          <h1>{park.length === 0 ? "" : park.fullName}</h1>
         </div>
-      </div>
-      <div className="summary row justify-content-center">
-        <div className="col-8">
+        <div className="col-lg-1"></div>
+
+        <div className="col-lg-6">
+          <h1>{park.length === 0 ? "" : park.fullName}</h1>
           <p>{park.length === 0 ? "" : park.description}</p>
         </div>
       </div>
+
       <div className="secondary-details-container">
         <div className="row justify-content-center">
           <div className="col-8 park-address">
@@ -78,14 +79,14 @@ const ParkDetails = ({ item, routerProps }) => {
           </div>
         </div>
         <div className="park-images-container row justify-content-center">
-          <div className="col-6">
+          <div className="col-md-6">
             <img
               src={park.images && park.images[1].url}
               alt={park.images && park.images[1].caption}
               className="park-images"
             ></img>
           </div>
-          <div className="col-6">
+          <div className="col-md-6">
             <img
               src={park.images && park.images[2].url}
               alt={park.images && park.images[2].caption}

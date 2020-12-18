@@ -29,16 +29,22 @@ const Parks = () => {
     <>
       {parksData.map((item) => {
         return (
-          <div className="single-park-container col-3">
-            <Link to={`/parks/${item.parkCode}`}>
-              <p className="subtitle">{item.fullName}</p>
-            </Link>
-            <img
-              src={item.images[0] && item.images[0].url}
-              alt={item.images[0] && item.images[0].caption}
-              className="park-thumbnail"
-            />
-          </div>
+          <>
+            <div className="single-park-container col-md-3">
+              <Link
+                to={`/parks/${item.parkCode}`}
+                style={{ textDecoration: "none" }}
+              >
+                <p className="subtitle">{item.fullName}</p>
+              </Link>
+              <img
+                src={item.images[0] && item.images[0].url}
+                alt={item.images[0] && item.images[0].caption}
+                className="park-thumbnail"
+              />
+            </div>
+            <div className="row-spacer-div"></div>
+          </>
         );
       })}
     </>
